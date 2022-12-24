@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	
+}
+
+
+body{
+   background-image: url(/img/abstract.jpg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+}
+main{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 0 .5em black;
+	border-radius:.5em ;
+	-webkit-border-radius:.5em ;
+	-moz-border-radius:.5em ;
+	-ms-border-radius:.5em ;
+	-o-border-radius:.5em ;
+}
+header{
+    display: flex;
+    width: 90%;
+	height: 5em;
+    margin: 1em;
+	box-shadow: 0 0 .5em black;
+	padding: .5em;
+	border-radius:.5em ;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #1e0233d5;
+	text-shadow: 0 0 .3em white;
+ }
+ header img{
+	 width: 2.5%;
+	 margin: 1em;
+	 filter: drop-shadow(0em 0em .2em white);
+	 -webkit-filter: drop-shadow(0em 0em .2em white);
+}
+
+ .h4{
+	margin: 1em;
+	padding: .3em;
+	text-shadow: 0 0 .3em white;
+ }
+
+ .encriptar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 1em;
+         
+}
+
+ .textarea{
+   margin-top: 7%;
+   width: 80%;
+   height: 50%;
+   border: none;
+   font-size: 1.5em;
+   font-weight: bold;
+   padding: 1em;
+   background-color: transparent;
+   margin: auto;
+   resize: none;
+   outline: none;
+   box-shadow: 0 0 .5em black;
+   border-radius: .5em;
+   -webkit-border-radius: .5em;
+   -moz-border-radius: .5em;
+   -ms-border-radius: .5em;
+   -o-border-radius: .5em;
+   background-color: #1e0233d5;
+   
+}
+
+
+
+.alerta{
+    display: flex;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.alerta p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+	text-shadow: 0 0 .3em white;
+}
+
+
+.btn-conteiner{
+display: flex;
+flex-direction: row;
+width: 70%;
+margin: auto;
+margin-top: 2%; 
+justify-content: center;
+
+}    
+
+
+.btn1, .btn2{
+	display:inline;
+	width:22em;
+	height: 3.5em;
+	background-color:rgba(0, 0, 255, 0.845);
+	border:none;
+	border-radius: 1.2em;
+	margin-right: 3em;
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 1em;
+	transition:.3s ;
+	-webkit-transition:.3s ;
+	-moz-transition:.3s ;
+	-ms-transition:.3s ;
+	-o-transition:.3s ;
+	-webkit-border-radius: 1.2em;
+	-moz-border-radius: 1.2em;
+	-ms-border-radius: 1.2em;
+	-o-border-radius: 1.2em;
+	text-shadow: 0 0 .3em white;
+}
+
+.btn2{
+margin-right: 1em;
+}
+
+.btn1:hover{
+	box-shadow: 0 0 2em white;
+	transform: scale(1.1) translateY(-.2em);
+	-webkit-transform: scale(1.1) translateY(-.2em);
+	-moz-transform: scale(1.1) translateY(-.2em);
+	-ms-transform: scale(1.1) translateY(-.2em);
+	-o-transform: scale(1.1) translateY(-.2em);
+}
+
+
+.btn2:hover{
+	box-shadow: 0 0 2em white;
+	transform: scale(1.1) translateY(-.2em);
+	-webkit-transform: scale(1.1) translateY(-.2em);
+	-moz-transform: scale(1.1) translateY(-.2em);
+	-ms-transform: scale(1.1) translateY(-.2em);
+	-o-transform: scale(1.1) translateY(-.2em);
+}
+
+
+.tablero{
+	box-shadow: 0 0 .5em black;
+	border-radius: .5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	-ms-border-radius: .5em;
+	-o-border-radius: .5em;
+	width: 25%;
+	text-align: center;
+	background-color: #1e0233d5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-shadow: 0 0 .3em white;
+	
+}
+
+.munieco{
+	filter: drop-shadow(0em 0em .2em white);
+}
+
+
+
+
+
+.conteinerImg img{
+width: 80%;
+height: 10em;
+margin: 1em;
+
+
+}
+
+.text1{
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.text2 {
+    padding: 1em;
+    color: white;
+    font-size: 1.3em;
+}
+
+#titulo-resultado{
+    margin-top: 1em;
+    color: rgba(255, 255, 255, 0.933);
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #fff;
+}
+   
+#resultado{
+display: flex;
+color:white;
+width: 90%;
+font-size: 1.5em;
+padding: 0.5em;
+border: none;
+height: 90%;
+background-color: transparent;
+margin: auto;
+resize: none;
+outline: none;
+margin-top: 2em;
+text-shadow: 0 0 .3em white;
+}
+
+.btnCopy{
+	width:80%;
+	min-height: 50px;
+	background-color:rgba(0, 0, 255, 0.845);
+	border:none;
+	border-radius: 1.2em;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10em;
+	transition:.3s ;
+	-webkit-transition:.3s ;
+	-moz-transition:.3s ;
+	-ms-transition:.3s ;
+	-o-transition:.3s ;
+	text-shadow: 0 0 .3em white;
+}
+
+.btnCopy:hover{
+	box-shadow: 0 0 2em white;
+	transform: scale(1.1) translateY(-.2em);
+	-webkit-transform: scale(1.1) translateY(-.2em);
+	-moz-transform: scale(1.1) translateY(-.2em);
+	-ms-transform: scale(1.1) translateY(-.2em);
+	-o-transform: scale(1.1) translateY(-.2em);
+}
+
+footer{
+	width: 90%;
+	height: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius:.5em ;
+	box-shadow: 0 0 .5em black;
+	-webkit-border-radius:.5em ;
+	-moz-border-radius:.5em ;
+	-ms-border-radius:.5em ;
+	-o-border-radius:.5em ;
+	margin: 1em;
+	text-align: center;
+	background-color: #1e0233d5;
+	text-shadow: 0 0 .3em white;
+}
+
+
+@media only screen and (max-width: 700px){
+    main{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    header img{
+        width: 10%;
+    }
+    .btn-conteiner{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 2em;
+        width: 95%;
+       
+    }
+        .btn1, .btn2{
+            width: 100%;
+            margin: auto;
+            margin-bottom: 2em;
+        }
+    .textarea{
+        font-size: 100%;
+        margin: 0;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .tablero{
+        margin: auto;
+        width: 90%;
+        
+        height:auto;
+    
+    }
+    .tablero img{
+        display: none;
+        margin: none;
+    }
+    .btn-copy{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .btn3{
+        width: 95%;
+        height: 4em;
+    }
+    #resultado{
+        height: auto;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+}
+
