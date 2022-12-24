@@ -9,7 +9,7 @@
 
 
 body{
-   background-image: url(/img/abstract.jpg);
+   background-color:darkmagenta;
    display: flex;
    align-items: center;
    justify-content: center;
